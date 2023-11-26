@@ -12,7 +12,103 @@
       <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
     </header>
     <main>
-      <!-- Student code goes here -->
+      <section class="card" id="html-section">
+        <h2>HTML</h2>
+        <ul>
+          <li>HTML is used to create the structure of the webpage.</li>
+          <li>"HTML" stands for: Hypertext Markup Language.</li>
+          <li>HTML is composed of an opening tag and a closing tag represented with angle brackets.</li>
+          <li>Elements nested in side of other elements are refered to as "child elements" while the element they are in are refererd to "parent elements."</li>
+          <li>Located at the top of the document, the declaration "!DOCTYPE html" tells the browser that the document is written in HTML.</li>
+          <li>Following this, we see the html tag which represents the start of the HTML document.</li>
+          <li>The html tag is used to assign attributes to the website, like the language.</li>
+          <li>HTML attributes are always defined in the beginning element, never the closing element.</li>
+          <li>The HEAD element contains information about the webpage.</li>
+          <li>"Meta", "title", "style", "base", "link", and "script" elements are nested in the head element.</li>
+          <li>The meta element defines metadata such as the character set, description, keywords, author, and viewport.</li>
+          <li>The title element defines the title for a webpage. This element is required and is extremely important for Search Engine Optimization (SEO).</li>
+          <li>The style element defines the CSS styles associated with a website.</li>
+          <li>The base element defines the base URL for a webpage.</li>
+          <li>The link element connects an external resource to the HTML document.</li>
+          <li>The script element embeds client-side scripts in the HTML document.</li>
+          <li>The BODY element represents the visible content shown to the user.</li>
+          <li>When working with visible HTML elements, the content is contained between an opening tag and a closing tag.</li>
+          <li>Closing tags begin with a forward slash.</li>
+          <li>"Header", "main", "footer", h#", "p", "ul", "ol", "li", "img", "br", and "a" elements are nested in the body element.</li>
+          <li>The header element appears at the top of the page and usually contains a navigation menu and/or introductory content.</li>
+          <li>The main element contains the main content of a document.</li>
+          <li>The footer element appears at the bottom of the page and usually contains the author, copyright, contact, sitemap, and navigation.</li>
+          <li>The h1, h2, h3, h4, h5, and h6 elements represent the level of heading a given text block represents.</li>
+          <li>The p element represents a paragraph or block of text.</li>
+          <li>The ul, ol, and li elements represent unordered lists, ordered lists, and list items.</li>
+          <li>The img element contains information about images that are displayed on the webpage.</li>
+          <li>The img element can contain many attributes;the "src" attribute is the most important because it defines the location of the image. While the "alt" attribute contains a text string that describes the appearance and functionality of the image.</li>
+          <li>The br element creates a line of empty space, or a line break, between two blocks of content.</li>
+          <li>The a element (which stands for anchor) creates links to the same webpage or other webpages.</li>
+          <li>The a element contains an "href" attribute that  points to the URL for the link.</li>
+          <li>In semantic HTML elements, the name of the element describes its content and the role it plays on a webpage.</li>
+          <li>Section elements are semantic elements that define a section in a document that contains thematic content.</li>
+
+        </ul>
+      </section>
+   
+      <section class="card" id="css-section">
+        <h2>CSS</h2>
+        <ul>
+          <li>Enter your CSS notes here</li>
+        </ul>
+      </section>
+   
+      <section class="card" id="git-section">
+        <h2>Git</h2>
+        <ul>
+          <li>git status: checks what branch we are currently on</li>
+          <li>git checkout -b branch-name: creates a new branch and switches to it</li>
+          <li>git checkout: switch to another branch and check it out into your working directory</li>
+          <li>git add [file]: add a file as it looks now to your next commit (stage)</li>
+          <li>git add -A: commits all files in the working branch</li>
+          <li>git reset [file]: unstage a file while retaining the changes in working directory</li>
+          <li>git diff: diff of what is changed but not staged</li>
+          <li>git diff --staged: diff of what is staged but not yet commited</li>
+          <li>git commit -m “[descriptive message]”: commit your staged content as a new commit snapshot</li>
+          <li>git branch: list your branches. a * will appear next to the currently active branch</li>
+          <li>git branch [branch-name]: create a new branch at the current commit</li>
+          <li>git merge [branch]: merge the specified branchs history into the current one</li>
+          <li>git log: show all commits in the current branchs history</li>
+          <li>git init: initialize an existing directory as a Git repository</li>
+          <li>git clone [url]: retrieve an entire repository from a hosted location via URL</li>
+          <li>git config --global user.name “[firstname lastname]”: set a name that is identifiable for credit when review version history</li>
+          <li>git config --global user.email “[valid-email]”: set an email address that will be associated with each history marker</li>
+          <li>git config --global color.ui auto: set automatic command line coloring for Git for easy reviewing</li>
+          <li>git log: show the commit history for the currently active branch</li>
+          <li>git log branchB..branchA: show the commits on branchA that are not on branchB</li>
+          <li>git log --follow [file]: show the commits that changed file, even across renames</li>
+          <li>git diff branchB...branchA: show the diff of what is in branchA that is not in branchB</li>
+          <li>git show [SHA]: show any object in Git in human-readable format</li>
+          <li>git rm [file]: delete the file from project and stage the removal for commit</li>
+          <li>git mv [existing-path] [new-path]: change an existing file path and stage the move</li>
+          <li>git log --stat -M: show all commit logs with indication of any paths that moved</li>
+          <li>git remote add [alias] [url]: add a git URL as an alias</li>
+          <li>git fetch [alias]: fetch down all the branches from that Git remote</li>
+          <li>git merge [alias]/[branch]: merge a remote branch into your current branch to bring it up to date</li>
+          <li>git push [alias] [branch]: Transmit local branch commits to the remote repository branch</li>
+          <li>git pull: fetch and merge any commits from the tracking remote branch</li>
+          <li>git rebase [branch]: apply any commits of current branch ahead of specified one</li>
+          <li>git reset --hard [commit]: clear staging area, rewrite working tree from specified commit</li>
+          <li>git stash: Save modified and staged changes</li>
+          <li>git stash list: list stack-order of stashed file changes</li>
+          <li>git stash pop: write working from top of stash stack</li>
+          <li>git stash drop: discard the changes from top of stash stack</li>
+          <li>git config --global core.excludesfile [file]: system wide ignore patern for all local repositories</li>
+        </ul>
+      </section>
+   
+      <section class="card" id="javascript-section">
+        <h2>JavaScript</h2>
+        <ul>
+          <li>Enter your JavaScript notes here</li>
+        </ul>
+      </section>
     </main>
 
     <footer>
