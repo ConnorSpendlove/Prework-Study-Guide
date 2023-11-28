@@ -2,9 +2,9 @@
 
 ## Description
 
--This Prework Study Guide was created with the intention of teaching a bootcamp student like myself how to use HTML, CSS, JavaScript, and Git. 
--This webpage contains notes obtained during the prework, and it features JavaScript that offers suggestions and further information in the console.
--I have learned the basics of HTML, CSS, JavaScript, and Git during the creation process of this page, and the importance of being thorough while coding. 
+This Prework Study Guide was created with the intention of teaching a bootcamp student like myself how to use HTML, CSS, JavaScript, and Git. 
+This webpage contains notes obtained during the prework, and it features JavaScript that offers suggestions and further information in the console.
+I have learned the basics of HTML, CSS, JavaScript, and Git during the creation process of this page, and the importance of being thorough while coding. 
 
 ## Installation
 
