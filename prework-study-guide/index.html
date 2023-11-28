@@ -11,6 +11,7 @@
     <header id="top">
       <h1>Prework Study Guide</h1>
       <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+      <h2>✨ Open the Console to See What's Happening ✨</h2>
     </header>
     <main>
       <section class="card" id="html-section">
@@ -21,21 +22,28 @@
           <li>HTML is composed of an opening tag and a closing tag represented with angle brackets.</li>
           <li>Elements nested in side of other elements are refered to as "child elements" while the element they are in are refererd to "parent elements."</li>
           <li>Located at the top of the document, the declaration "!DOCTYPE html" tells the browser that the document is written in HTML.</li>
-          <li>Following this, we see the html tag which represents the start of the HTML document.</li>
-          <li>The html tag is used to assign attributes to the website, like the language.</li>
-          <li>HTML attributes are always defined in the beginning element, never the closing element.</li>
+          <ul>
+            <li>Following this, we see the html tag which represents the start of the HTML document.</li>
+            <li>The html tag is used to assign attributes to the website, like the language.</li>
+            <li>HTML attributes are always defined in the beginning element, never the closing element.</li>
+         </ul>
           <li>The HEAD element contains information about the webpage.</li>
-          <li>"Meta", "title", "style", "base", "link", and "script" elements are nested in the head element.</li>
-          <li>The meta element defines metadata such as the character set, description, keywords, author, and viewport.</li>
-          <li>The title element defines the title for a webpage. This element is required and is extremely important for Search Engine Optimization (SEO).</li>
-          <li>The style element defines the CSS styles associated with a website.</li>
-          <li>The base element defines the base URL for a webpage.</li>
-          <li>The link element connects an external resource to the HTML document.</li>
-          <li>The script element embeds client-side scripts in the HTML document.</li>
-          <li>The BODY element represents the visible content shown to the user.</li>
+          <ul>
+            <li>"Meta", "title", "style", "base", "link", and "script" elements are nested in the head element.</li>
+            <ul>
+              <li>The meta element defines metadata such as the character set, description, keywords, author, and viewport.</li>
+              <li>The title element defines the title for a webpage. This element is required and is extremely important for Search Engine Optimization (SEO).</li>
+              <li>The style element defines the CSS styles associated with a website.</li>
+              <li>The base element defines the base URL for a webpage.</li>
+              <li>The link element connects an external resource to the HTML document.</li>
+              <li>The script element embeds client-side scripts in the HTML document.</li>
+              <li>The BODY element represents the visible content shown to the user.</li>
+            </ul>
+          </ul>
           <li>When working with visible HTML elements, the content is contained between an opening tag and a closing tag.</li>
           <li>Closing tags begin with a forward slash.</li>
           <li>"Header", "main", "footer", h#", "p", "ul", "ol", "li", "img", "br", and "a" elements are nested in the body element.</li>
+         <ul>
           <li>The header element appears at the top of the page and usually contains a navigation menu and/or introductory content.</li>
           <li>The main element contains the main content of a document.</li>
           <li>The footer element appears at the bottom of the page and usually contains the author, copyright, contact, sitemap, and navigation.</li>
@@ -46,7 +54,10 @@
           <li>The img element can contain many attributes;the "src" attribute is the most important because it defines the location of the image. While the "alt" attribute contains a text string that describes the appearance and functionality of the image.</li>
           <li>The br element creates a line of empty space, or a line break, between two blocks of content.</li>
           <li>The a element (which stands for anchor) creates links to the same webpage or other webpages.</li>
-          <li>The a element contains an "href" attribute that  points to the URL for the link.</li>
+          <ul>
+            <li>The a element contains an "href" attribute that  points to the URL for the link.</li>
+          </ul>
+         </ul>
           <li>In semantic HTML elements, the name of the element describes its content and the role it plays on a webpage.</li>
           <li>Section elements are semantic elements that define a section in a document that contains thematic content.</li>
           <li>The "rel" attribute specifies the relationship between the current document and the linked document resource.</li>
@@ -123,7 +134,71 @@
       <section class="card" id="javascript-section">
         <h2>JavaScript</h2>
         <ul>
-          <li>Enter your JavaScript notes here</li>
+          <li>JavaScript (JS) is a high-level dynamic programming language that allows users to interact with websites.</li>
+          <li>Using JavaScript, you can power your websites with effects, interactivity, data communication, and much more.</li>
+          <li>Variables are containers that store values.</li>
+          <li>You start by declaring a variable with the let keyword, followed by the name you give to the variable.</li>
+          <li>JavaScript is case sensitive.</li>
+          <li>Control flow is the order in which a computer executes code in a script (top to bottom).</li>
+          <li>A function is simply a set of instructions that tells the computer how to perform a certain task.</li>
+          <ul>
+            <li>However, declaring a function does not mean that the code will automatically execute. We need to call the function in the code</li>
+            <li>To call a function, we use the name of the function in our JavaScript file where we want the code to execute.spot we want it to execute.</li>
+          </ul>
+          <li>String: This is a sequence of text known as a string. To signify that the value is a string, enclose it in single or double quote marks.</li>
+          <li>Number: This is a number. Numbers don't have quotes around them.</li>
+          <li>Boolean: This is a True/False value. The words true and false are special keywords that don't need quote marks.</li>
+          <li>Array: This is a structure that allows you to store multiple values in a single reference.</li>
+          <li>Object: This can be anything. Everything in JavaScript is an object and can be stored in a variable.</li>
+          <li>Comments are snippets of text that can be added along with code. The browser ignores text marked as comments.</li>
+          <li>An operator is a mathematical symbol that produces a result based on two values (or variables).</li>
+          <ul>
+            <li>Addition: Add two numbers together or combine two strings. +</li>
+            <li>Subtraction, Multiplication, Division: These do what you'd expect them to do in basic math. -, *, /</li>
+            <li>Assignment: This assigns a value to a variable. =</li>
+            <li>Strict equality: This performs a test to see if two values are equal and of the same data type. It returns a true/false (Boolean) result. ===</li>
+            <li>Not, Does-not-equal: This returns the logically opposite value of what it precedes. It turns a true into a false, etc.. When it is used alongside the Equality operator, the negation operator tests whether two values are not equal. !, !==</li>
+          </ul>
+          <li>Conditionals are code structures used to test if an expression returns true or not. A very common form of conditionals is the if...else statement.</li>
+          <li>Events: These are code structures that listen for activity in the browser, and run code in response.</li>
+          <li>Variables in JavaScript are not directly associated with any particular value type, and any variable can be assigned (and re-assigned) values of all types.</li>
+          <ul>
+            <li>JavaScript is also a weakly typed language, which means it allows implicit type conversion when an operation involves mismatched types, instead of throwing type errors.</li>
+            <li>All types except Object define immutable values represented directly at the lowest level of the language. We refer to values of these types as primitive values.</li>
+            <li>All primitive types, except null, can be tested by the typeof operator.</li>
+            <li>All primitive types, except null and undefined, have their corresponding object wrapper types, which provide useful methods for working with the primitive values.</li>
+            <li>The Null type is inhabited by exactly one value: null.</li>
+            <li>The Undefined type is inhabited by exactly one value: undefined.</li>
+          <ul>
+              <li>Conceptually, undefined indicates the absence of a value, while null indicates the absence of an object.</li>
+          </ul>
+            <li>The Boolean type represents a logical entity and is inhabited by two values: true and false.</li>
+            <li>The BigInt type is a numeric primitive in JavaScript that can represent integers with arbitrary magnitude.</li>
+            <li>A Symbol is a unique and immutable primitive value and may be used as the key of an Object property.</li>
+          </ul>
+          <li>In JavaScript, objects can be seen as a collection of properties.</li>
+          <ul>
+            <li>There are two types of object properties: The data property and the accessor property.</li>
+            <li>Each property has corresponding attributes.</li>
+            <li>Data properties associate a key with a value. It can be described by the following attributes: </li>
+           <ul>
+            <li>value: The value retrieved by a get access of the property. Can be any JavaScript value.</li>
+            <li>writeable: A boolean value indicating if the property can be changed with an assignment.</li>
+            <li>enumerable: A boolean value indicating if the property can be enumerated by a for...in loop.</li>
+            <li>configurable: A boolean value indicating if the property can be deleted, can be changed to an accessor property, and can have its attributes changed.</li>
+           </ul>
+           </ul>
+          <li>Accessor property: Associates a key with one of two accessor functions (get and set) to retrieve or store a value.</li>
+          <ul>
+            <li>An accessor property has the following attributes:</li>
+            <ul>
+              <li>get: A function called with an empty argument list to retrieve the property value whenever a get access to the value is performed.</li>
+              <li>set: A function called with an argument that contains the assigned value. Executed whenever a specified property is attempted to be changed.</li>
+              <li>enumerable: A boolean value indicating if the property can be enumerated by a for...in loop.</li>
+              <li>configurable: A boolean value indicating if the property can be deleted, can be changed to a data property, and can have its attributes changed.</li>
+              <li>Arrays are regular objects for which there is a particular relationship between integer-keyed properties and the length property.</li>
+            </ul>
+          </ul>
         </ul>
       </section>
     </main>
@@ -131,5 +206,6 @@
     <footer>
       <p>I can code!</p>
     </footer>
+    <script src="./assets/script.js"></script>
   </body>
 </html>
